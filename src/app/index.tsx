@@ -1,10 +1,10 @@
 // app/index.tsx
 import { useEffect, useState } from "react";
 import { Text, View } from "react-native";
-import IndikatorAQI from "../../components/IndikatorAQI";
-import RiwayatList from "../../components/RiwayatList";
-import SearchBox from "../../components/SearchBox";
-import WeatherCard from "../../components/WeatherCard";
+import IndikatorAQI from "../components/IndikatorAQI";
+import RiwayatList from "../components/RiwayatList";
+import SearchBox from "../components/SearchBox";
+import WeatherCard from "../components/WeatherCard";
 
 export default function HalamanUtama() {
   const [kotaAktif, setKotaAktif] = useState("Pekalongan");
