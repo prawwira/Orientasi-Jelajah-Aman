@@ -18,3 +18,11 @@ export interface LaporanUdara {
   tingkat: "BAIK" | "SEDANG" | "TIDAK_SEHAT" | "BERBAHAYA";
   diperbaruiPada?: string;
 }
+
+export interface RiwayatItem {
+  kota: string;
+  suhu: number;
+  indeksAQI: number;
+  tingkat: TingkatAQI;
+  diperbaruiPada: string;
+}
